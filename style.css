@@ -63,10 +63,13 @@ h1 {
         text-align: center;
         color: #fafbfc;
         padding-top: 12px;
-  padding-bottom: 12px;
+        padding-bottom: 12px;
+        border: 1px solid #ddd;
   }
   #statedata tr{
       font-family: Arial, Helvetica, sans-serif;
+      border: 1px solid #ddd;
+      
   }
   #statedata {
       padding: 20px;
@@ -78,4 +81,41 @@ h1 {
   #statedata tr:hover{
       background-color: #ddd;
   }
- 
+  
+  
+ .navbutton:hover {
+     background-color: #1c5cdd;
+     color: white;
+
+ }
+ a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  .text a{
+    color:white
+  }
+  #confirm , #newconfirm{
+    font-size: 18px;color: rgb(45, 209, 94);text-align: center;font-family: 'Lato';font-weight: bolder;
+  }
+  #recovered,#newrecovered{
+    font-size: 18px;color: #6592eb;text-align: center;font-family: 'Lato';font-weight: bolder;
+  }
+  #death,#newdeath{
+    font-size: 18px;color: #535a61;text-align: center;font-family: 'Lato';font-weight: bolder;
+  }
+  #active{
+    font-size: 18px;color: #850707;text-align: center;font-family: 'Lato';font-weight: bolder;
+  }

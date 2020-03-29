@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Covid-19 India</title>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
-    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
-    <link type="text/css" rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-</head>
-<body>
-    
+<html>
+    <head>
+        <title>Covid-19 World</title>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <script src="scriptworld.js"></script>
+    </head>
+    <bpdy>
         <div>
             <div id="image">
                 
@@ -32,7 +31,7 @@
                                 </a> 
                             </td>
                             <td class="navbutton">
-                                <a href="world.html" class="text">
+                                <a href="home.html" class="text">
                                     <span style="font-size: 22px;font-family: Arial, Helvetica, sans-serif;padding-left: 20px;padding-right: 20px;">
                                         World
                                         
@@ -40,7 +39,7 @@
                                 </a>
                             </td>
                             <td class="navbutton">
-                                <a href="update.html">
+                                <a href="home.html">
                                     <span style="font-size: 22px;font-family: Arial, Helvetica, sans-serif;padding-left: 20px;padding-right: 20px; ">
                                         Update
                                         
@@ -76,7 +75,7 @@
         
     
     <div class="head_font">
-       <h1> Covid-19 INDIA</h1>
+       <h1> Covid-19 World Report</h1>
     </div>
     <p><br>
     <br></p>
@@ -87,30 +86,41 @@
                         <col width="200px">
                         <col width="200px">
                         
-            <tr style="text-align: center;">
+            <tr>
                 <td><span style="font-size: 28px;color: rgb(45, 209, 94);font-family: 'Lato';font-weight: bold;" >CONFIRMED</span><br></td>
-                <td><span style="font-size: 28px;color: rgb(45, 209, 94);font-family: 'Lato';font-weight: bold;" >ACTIVE</span><br></td>
                 <td><span style="font-size: 28px;color: #6592eb;font-family: 'Lato';font-weight: bold;">RECOVERED</span><br></td>
                 <td><span style="font-size: 28px;color: #535a61;font-family: 'Lato';font-weight: bold;">DECEASED</span><br></td>
                 
             </tr>
             <tr style="text-align: center;">
                 <td id="confirm"><span></span></td>
-                <td id="active"><span></span></td>
                 <td id="recovered"><span ></span></td>
                 <td id="death"><span ></span></td>
             </tr>
-            
+            <tr>
+                <td id="newconfirm"><span></span></td>
+                <td id="newrecovered"><span></span></td>
+                <td id="newdeath"><span></span></td>
+            </tr>
         </table><br><br><br>
     </div>
     <div class="tablecard">
         <table id="statedata" cellspacing="10">
+            <col width="400px">
+            <col width="400px">
+            <col width="400px">
+            <col width="400px">
+            <col width="400px">
+            <col width="400px">
+            <col width="400px">
             <tr>
-                <th>State</th>
+                <th>Country</th>
                 <th>Confirmed Cases</th>
-                <th>Active</th>
-                <th>Recovered</th>
-                <th>Deceased</th>
+                <th>New Confirmed Cases</th>
+                <th>Total Recovered</th>
+                <th>New Recovered</th>
+                <th>Total Deceased</th>
+                <th>New Deceased</th>
             </tr>
            <tbody id='mytable'>
 
@@ -121,4 +131,5 @@
     <br>
     
 </body>
+    </bpdy>
 </html>
