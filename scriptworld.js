@@ -18,7 +18,7 @@ fetch('https://api.covid19api.com/summary')
         if(i==0){
             continue
         }
-
+        //added comment
         var confirmedcase=data[i].NewConfirmed
         
         TotalConfirmed+=data[i].TotalConfirmed
